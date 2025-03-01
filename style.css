@@ -1,0 +1,132 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Batman Header */
+h1:first-of-type {
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: brown;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+/* Paragraphs */
+p {
+    border: 2px solid powderblue;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Images */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Table */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ffffff;
+}
+
+th {
+    background-color: #333;
+}
+
+/* Buttons */
+button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+/* Form Styling */
+form {
+    width: 40%;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+input[type="text"], input[type="submit"] {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Justice League Heading */
+h1:last-of-type {
+    font-size: 160px;
+    color: cadetblue;
+    font-family: monospace;
+    text-shadow: 3px 3px 10px rgba(0, 255, 255, 0.6);
+}
+
+/* Justice League Section */
+.jl {
+    text-align: center;
+    font-size: 50px;
+    color: #ffcc00;
+    text-shadow: 2px 2px 10px rgba(255, 204, 0, 0.8);
+}
